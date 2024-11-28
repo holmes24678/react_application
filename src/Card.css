@@ -1,0 +1,78 @@
+.cam-11-container {
+    background-color: #ffffff; /* White background for the card */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 15px; /* Space inside the card */
+    margin-bottom: 10px; /* Space between cards */
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between internal elements */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .cam-11-container:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+  }
+  
+  .cam-11-header {
+    display: flex;
+    justify-content: space-between; /* Space out elements horizontally */
+    align-items: center; /* Center vertically */
+    margin-bottom: 10px; /* Space below the header */
+  }
+  
+  .cam-11-id {
+    font-size: 14px;
+    font-weight: bold; /* Bold text for the ticket ID */
+    color: #555; /* Medium gray text color */
+  }
+  
+  .cam-11-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; /* Circular avatar */
+    background-color: #e0e0e0; /* Placeholder background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .cam-11-title {
+    font-size: 16px;
+    font-weight: 600; /* Slightly bold title */
+    color: #333; /* Darker gray for better readability */
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Add ellipsis for overflow text */
+    white-space: nowrap;
+  }
+  
+  .cam-11-feature-request {
+    display: flex;
+    align-items: center; /* Align icon and text vertically */
+    gap: 5px; /* Space between icon and text */
+    font-size: 14px;
+    color: #ff6b6b; /* Red text color to signify importance */
+    background-color: #fff6f6; /* Light red background */
+    padding: 5px 10px; /* Padding inside the feature request area */
+    border-radius: 4px; /* Rounded corners */
+    font-weight: bold;
+  }
+  
+  .cam-11-feature-request-icon {
+    font-size: 16px;
+    color: #ff6b6b; /* Match the icon color to the text */
+    font-weight: bold;
+  }
+  
+  .cam-11-feature-request-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ff6b6b;
+  }
+  
