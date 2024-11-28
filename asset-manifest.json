@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/holmes24678/react_application.git/static/css/main.93391684.css",
+    "main.js": "/holmes24678/react_application.git/static/js/main.1c52958e.js",
+    "index.html": "/holmes24678/react_application.git/index.html",
+    "main.93391684.css.map": "/holmes24678/react_application.git/static/css/main.93391684.css.map",
+    "main.1c52958e.js.map": "/holmes24678/react_application.git/static/js/main.1c52958e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93391684.css",
+    "static/js/main.1c52958e.js"
+  ]
+}
